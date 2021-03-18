@@ -2,7 +2,7 @@
 
 > Template for all starting repos regardless of language
 
-## [Documentation](docs/index.md)
+## [Documentation](docs/INDEX.md)
 
 ## QuickStart Guide
 
