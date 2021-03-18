@@ -1,0 +1,16 @@
+name: Test Script
+
+on:
+  push:
+
+jobs:
+  test-job:
+    name: Run Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Sanity Test
+        run: |
+          echo Hello world!
