@@ -24,19 +24,30 @@ Here are some example tags:
   test/name: branches that will never be merged
 ```
 
-The `master` branch is the sole source of truth where all branches merge into
+The `master` branch is the sole source of truth and should be kept at a stable state
+
+## Semantic Versioning
+
+Package releases shouldn't have to cause issues for the end user
+
+To fix this we use [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`
+
+This way we can keep track of minor changes and major changes. End users do not have to worry about breaking changes conflicting with their code
 
 ## Commit Messages
 
-Commit often and make short meaningful commit messages. Commit messages should be less than 80 characters (save long explainations for pull requests). Make sure you are commiting per file and not just adding all to the staging area
+Commit often and make short meaningful commit messages. Make sure you are commiting per file and not just adding all to the staging area
+
+We follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 Adding a tag to your commits allow for easier filtering later on. We follow this commit message template: `TAG: message`
 
 Here are some example tags:
 
 ```
-  add: add a feature
+  feat: add a feature
   fix: fix an issue
+
   ref: refactoring changes
   doc: documentation updates only
   fmt: formatting changes only (e.g. spacing, line breaks, etc..)
