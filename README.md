@@ -1,6 +1,6 @@
 # Repo Template
 
-> Template for all starting repos regardless of language
+> Template for all open-source repos regardless of language
 
 ## [Documentation](docs/INDEX.md)
 
