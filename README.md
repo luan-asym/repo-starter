@@ -1,4 +1,4 @@
-# Repo Template
+# Repo Starter
 
 > Template for all open-source repos regardless of language
 
